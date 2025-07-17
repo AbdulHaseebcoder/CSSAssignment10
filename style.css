@@ -1,0 +1,501 @@
+.container {
+            height: 120vh;
+            background-image: url('banner-bg.jpg') ;             
+            background-size: cover;
+            object-fit: cover;
+        }
+        
+    .top-section{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+            background-color: white;
+            color: black;
+            height: 100px;
+            position: relative;
+            top: 20px;
+            width: 90%;
+            margin: 0 auto;
+            border-radius: 10px;
+    }
+
+    .href {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+    }
+
+    a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 16px;
+     }
+
+    .main-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    }
+
+    .main-section h5 {
+            font-size: 18px;
+            margin-bottom: 10px;
+    }
+
+    .main-section h1 {
+            font-size: 65px;
+            margin-bottom: 20px;
+    }
+
+    span {
+            color: #eeeb23;
+            font-weight: bold;
+            font-family: 'Playfair Display'
+    }
+
+    .bottom-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .bottom-section .background {
+        position: relative;
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .bottom-section .background img {
+        height: 700px;
+        width: 700px;
+        object-fit: cover;
+    }
+
+    .picture{
+        text-align: justify ;
+        height: 500px;
+        width: 500px;
+    }
+
+    .picture h3 {
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+        margin: 10px 0;
+    }
+
+    #high {
+        color: #e4c51a;
+        font-weight: bold;
+        font-size: 40px;
+
+    }
+
+    p {
+        font-size: 16px;
+        color: rgb(87, 85, 85);
+        margin: 10px 0;
+    }
+
+    button {
+        background-color: #fa9f16;
+        color: black;
+        border: none;
+        padding: 10px 10px;
+        margin: 10px 0;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: #ffffff;
+        border: #fa9f16 2px solid;
+    }
+
+    #a123a {
+        color: #fa9f16;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .hero p{
+        font-size: 16px;
+        color: rgb(87, 85, 85);
+        margin: 10px 0;
+        width: 50%;
+    }
+
+    .hero h3 {
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+        margin: 10px 0;
+
+    }
+
+    .hero {
+        height: 40vh;
+        margin-top: 30px;
+        background-image: url(food-bg.png);
+        object-fit: fill;
+        background-size: cover;
+    }
+    
+  .card-container {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      flex-wrap: wrap;
+        margin-top: 0px;
+    }
+
+    .card {
+      width: 330px;
+      height: 400px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      background: white;
+    }
+
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card-title {
+      font-size: 28px;
+      margin: 10px;
+    }
+
+    .card span {
+       float: right;
+    }
+
+    .card-description{
+        font-size: 16px;
+        margin: 10px;
+        color: #555;
+    }
+
+    .card-container :hover{
+        transition: 0.3s ease;
+        background-color:#fa9f16;
+        transform: scale(1.05);
+    }
+
+    .food {
+        background-image: url(reservation-bg.jpg);
+        background-size:cover;
+        object-fit: contain;
+        height: 60vh;
+        width: 100%;
+        margin-top:10%;
+    }
+
+    .food3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .food3 .top {
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .food3 .sub {
+        color: #ffffff;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .food button {
+        background-color: #fa9f16;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .food button:hover {
+        background-color: #ffffff00;
+        border: #fa9f16 2px solid;
+        color: #fa9f16;
+    }
+
+   .heads{
+        text-align: center;
+        color: rgb(13, 0, 49);
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 20px;    
+   }
+    .menu {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 60px;
+      flex-direction: column;
+    }
+    .item {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .text {
+      flex: 1;
+      width: 50%;
+      margin: 80px;
+    }
+    .img {
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .number-line {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .number {
+      font-size: 4em;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    .line {
+      flex: 0.5;
+      height: 1px;
+      background: #0b0b28;
+    }
+    .title {
+      color: orange;
+      font-weight: bold;
+      font-size: 5em;
+    }
+    .subtitle {
+      font-weight: bold;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .desc {
+      font-size: 1.2em;
+      margin: 15px 0;
+    }
+    .price {
+      color: orange;
+      font-weight: bold;
+        font-size: 1.5em;
+    }
+    .link {
+      display: inline-block;
+      margin-top: 10px;
+      font-size:1.9em;
+      font-weight: bold;
+      text-decoration: none;
+      color: #0b0b28;
+    }
+    .bbq{
+        background-image: url(testimonial-bg.jpg);
+        background-size: cover;
+        object-fit: cover;
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 05%;  
+    }
+    .head{
+        text-align: center;
+        color: rgb(13, 0, 49);
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .paragraph{
+        text-align: center;
+        color: rgb(87, 85, 85);
+        font-size: 20px;
+        margin-top: 07px;
+    }
+    .heade{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .paragraphs{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-top: 07px;
+    }
+   .foot-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      text-align: justify;
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f8f9fa;
+      align-items: center;
+    }
+
+    .foot {
+      width: 300px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      height: 400px;
+    }
+
+    .foot img {
+      width: 100%;
+      height: 200px;
+      display: block;
+    }
+
+    .foot-body {
+      padding: 15px;
+    }
+
+    .foot-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+
+    .foot-title {
+
+    .card-text {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .read-more {
+      font-size: 14px;
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .read-more:hover {
+      text-decoration: underline;
+    }      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #111;
+    }
+        .hero9 {
+      background: url('table-bg.jpg');
+      padding: 100px 20px 50px;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+
+    .hero9 h2 {
+      font-size: 36px;
+      color: #fff;
+    }
+
+    .hero9 h2 span {
+      color: #fbbf24;
+    }
+
+    .hero9 p {
+      font-size: 14px;
+      margin-top: 10px;
+      color: #ddd;
+    }
+
+    .booking-form {
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .booking-form input {
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      width: 160px;
+    }
+
+    .booking-form button {
+      background-color: #fbbf24;
+      color: #000;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    /* Footer Section */
+    .footer {
+      background: #0f0c29;
+      color: #ddd;
+      padding: 50px 20px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .footer-column {
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+
+    .footer h3 {
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    .footer-column p,
+    .footer-column li {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #aaa;
+    }
+
+    .footer .logo {
+      font-size: 22px;
+      color: #fbbf24;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li {
+      margin-bottom: 8px;
+    }
